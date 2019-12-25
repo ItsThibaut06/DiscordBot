@@ -1,5 +1,6 @@
 const discord = require("discord.js");
 const botConfig = require("./botconfig.json");
+const Canvas = require('canvas');
 
 const fs = require("fs");
 
@@ -49,7 +50,7 @@ bot.on("guildMemberAdd", member => {
 });
 
 bot.on('guildMemberAdd', async member => {
-	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
+	const channel = member.guild.channels.find(ch => ch.name === 'welkom');
 	if (!channel) return;
 
 	const canvas = Canvas.createCanvas(700, 250);
