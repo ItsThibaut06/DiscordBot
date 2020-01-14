@@ -18,7 +18,7 @@ module.exports.run = async(bot, message, args) => {
     .setTitle("Hey" + message.channel.name)
     .setDescription("Je ticket is gemarkeerd als **COMPLETED**.")
     .addField("Gesloten",":closed_lock_with_key:")
-    .setFooter("PurgeMC Bot")
+    .setFooter("Tryhard Bot")
     .setTimestamp();
 
     var logChannel = message.guild.channels.find("name","logs");

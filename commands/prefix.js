@@ -21,7 +21,7 @@ var stringEmbed = new discord.RichEmbed()
 .setColor("#9ddba1")
 .setTitle("Prefix")
 .setDescription(`De botprefix is geupdate naar ${args[0]}`)
-.setFooter("PurgeMC Bot")
+.setFooter("Tryhard Bot")
 .setTimestamp();
 
 message.channel.send(stringEmbed);

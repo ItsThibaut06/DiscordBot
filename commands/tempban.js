@@ -27,7 +27,7 @@ var Tempbanban = new discord.RichEmbed()
 .setDescription("Tempban")
 .setColor("#ff0000")
 .addField(`${user}`, `Is tijdelijker verbannen voor: ${reason}`)
-.setFooter("PurgeMC Bot")
+.setFooter("Tryhard Bot")
 .setTimestamp();
 
 message.channel.send(Tempbanban);
@@ -40,7 +40,7 @@ var Tempbanunban = new discord.RichEmbed()
 .setDescription("Unbanned")
 .setColor("#ff0000")
 .addField(`${user}`, "is niet langer verbannen.")
-.setFooter("PurgeMC Bot")
+.setFooter("Tryhard Bot")
 .setTimestamp();
 
 message.channel.send(Tempbanunban);

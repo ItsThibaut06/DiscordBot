@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
         .setImage(img)
         .setTitle(`From /r/${random}`)
         .setURL(`https://reddit.com/r/${random}`)
-        .setFooter("PurgeMC Bot")
+        .setFooter("Tryhard Bot")
         .setTimestamp();
 
     return message.channel.send(embed)

@@ -10,7 +10,7 @@ module.exports.run = async(bot, message, args) => {
         .setThumbnail(icon)
         .addField("Bot naam", bot.user.username)
         .addField("Je bent deze server gejoint op:", message.member.joinedAt)
-        .setFooter("PurgeMC Bot")
+        .setFooter("Tryhard Bot")
         .setTimestamp();
 
     return message.channel.send(serverEmbed);

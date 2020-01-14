@@ -2,19 +2,19 @@ const discord = require('discord.js');
 
 module.exports.run = (bot, message, args) => {
     
- // pingInfo embed
- var pingInfo = new discord.RichEmbed()
+ // PlayInfo embed
+ var PlayInfo = new discord.RichEmbed()
 
  .setColor('#ff0000')
- .setDescription(`**Pong :ping_pong:** ${Math.round(bot.ping)}ms`)
+ .setDescription("Muziekbot nog in de maak!")
  .setTimestamp()
  .setFooter("Tryhard Bot")
  .setTimestamp();
 
-return message.channel.send(pingInfo);
+return message.channel.send(PlayInfo);
 
 }
 
 module.exports.help = {
-    name: 'ping'
+    name: 'play'
 }

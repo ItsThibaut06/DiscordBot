@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
             .setTitle("Mededeling")
             .setColor("#ff0000")
             .setDescription(`Gebruik dit commando om een mededeling te maken: \n !mededeling titel ${splitser} bericht ${splitser} kleur in # hex code  ${splitser} kanaal`)
-            .setFooter("Sold bot")
+            .setFooter("Tryhard Bot")
             .setTimestamp();
 
         return message.channel.send(useMessage);
@@ -44,7 +44,7 @@ module.exports.run = async (bot, message, args) => {
         .setTitle("Mededeling:")
         .setColor(options.kleur)
         .setDescription(`Bericht van${announcer} \n\n ${options.titel} \n\n ${options.bericht} \n`)
-        .setFooter("Sold bot")
+        .setFooter("Tryhard Bot")
         .setTimestamp();
 
     var announcementChannel = message.guild.channels.find(`name`, options.kanaal);

@@ -43,7 +43,7 @@ module.exports.run = async (bot, message, args) => {
             var embedSendMessages = new discord.RichEmbed()
                 .setTitle("Hey " + message.author.username.toString())
                 .setDescription("Stuur hier je vraag!")
-                .setFooter("PurgeMC Bot")
+                .setFooter("Tryhard Bot")
                 .setTimestamp();
             settedParent.send(embedSendMessages);
 

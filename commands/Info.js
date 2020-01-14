@@ -9,8 +9,8 @@ module.exports.run = async(bot, message, args) => {
         .setColor("#fc0303")
         .setThumbnail(botIcon)
         .addField("Bot naam", bot.user.username)
-        .addField("Mijn baas is:", "Thibaut")
-        .setFooter("PurgeMC Bot")
+        .addField("Ik ben gemaakt door:", "Thibaut")
+        .setFooter("Tryhard Bot")
         .setTimestamp();
         
         return message.channel.send(botEmbed);

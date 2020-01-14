@@ -18,7 +18,7 @@ module.exports.run = async(bot, message, args) => {
             .addField("Gekickte gebruiker", kickUser)
             .addField("Gekickt door", message.author)
             .addField("Reden", reason)
-            .setFooter("PurgeMC Bot")
+            .setFooter("Tryhard Bot")
             .setTimestamp();
             
         var kickChannel = message.guild.channels.find(`name`, "logs");

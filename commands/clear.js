@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
 
             if (args[0] == 0) {
 
-                message.channel.send(`Ik kan geen0 berichten verwijderen.`).then(msg => msg.delete(3000));
+                message.channel.send(`Ik kan geen 0 berichten verwijderen.`).then(msg => msg.delete(3000));
             } else {
 
                 message.channel.send(`Ik verwijderde ${args[0]} berichten!`).then(msg => msg.delete(3000));

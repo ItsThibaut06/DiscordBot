@@ -18,8 +18,8 @@ module.exports.run = async (bot, message, args) => {
         .addField("Verbande gebruiker", Banuser)
         .addField("Verband door", message.author)
         .addField("Reden", reason)
-        .setFooter("PurgeMC Bot")
-        .setTimestamp();
+        .setFooter("Tryhard Bot")
+                .setTimestamp();
 
     var banChannel = message.guild.channels.find(`name`, "logs");
     if (!banChannel) return message.guild.send("Ik kan het kanaal 'logs' niet vinden. Maak een kanaal aan met de naam 'logs'. ");
